@@ -3,8 +3,8 @@
 ## Integrantes
 - Lista de los integrantes (Nombre completo y Numero de control)
 - Herrera Ramiro - 1222100418
-- Hernández Negrete Alejandro
-- Vega Cervantes Salvador
+- Hernández Negrete Alejandro 1222100417
+- Vega Cervantes Salvador 0000000000
 
 ## Carta de liberación del proyecto
 - Dirigida al Docente
@@ -29,6 +29,10 @@
 |    |          |         |      |
 
 ## Visión del producto
+El proyecto " " esta pensado para público muy amplio, ideado para personas que se dedican a la siembra de cosecha, hasta para la madre de hogar que le gusta conservar sus plantas enun buen estado si tener que estarse preocupando todo el tiempo por ellas. 
+Por ello aqui les venimos a ofrecer un sistema de cuidado de tú jardin el cual una vez instalado de una manera adecauada asistira a su jardin de manera que no tendrá que preocuparse si se estan secando, porque nuestro sistema realizará todo el sitema de riego cuando sea pertinente basado en datos reales como la humedad del suelo y las posibles temperaturas a tiempo real, un ejemplo sería, ¿para que gastar agua en regar sus plantas? cuando ese mismo día está pronosticada una fuerte tormenta, aunado a un sitema de cuidado contra malos climas, el sistema " " es el sistema perfecto y pensado en sus necesidades como persona con una vida llena de responsabilidades.
+Pensado en tus necesidades.
+
 ¿Como generar la visión del proyecto?
 
 Como es usual en agilidad la comunicación se ve enormemente potenciada cuando acompañamos nuestro cometido con elementos visuales. Arriba a la izquierda el resultado de un ejercicio de uno de los cursos, en que el grupo expuso una solución en la que a través de big data se pueden controlar los procesos de incapacidad laboral temporal.
