@@ -29,9 +29,18 @@
 |    |          |         |      |
 
 ## Visión del producto
-El proyecto " " esta pensado para público muy amplio, ideado para personas que se dedican a la siembra de cosecha, hasta para la madre de hogar que le gusta conservar sus plantas enun buen estado si tener que estarse preocupando todo el tiempo por ellas. 
-Por ello aqui les venimos a ofrecer un sistema de cuidado de tú jardin el cual una vez instalado de una manera adecauada asistira a su jardin de manera que no tendrá que preocuparse si se estan secando, porque nuestro sistema realizará todo el sitema de riego cuando sea pertinente basado en datos reales como la humedad del suelo y las posibles temperaturas a tiempo real, un ejemplo sería, ¿para que gastar agua en regar sus plantas? cuando ese mismo día está pronosticada una fuerte tormenta, aunado a un sitema de cuidado contra malos climas, el sistema " " es el sistema perfecto y pensado en sus necesidades como persona con una vida llena de responsabilidades.
-Pensado en tus necesidades.
+Pensado en un amplio público que va desde amas de casa, hasta personas que se dedican a la cosecha en potencia.
+Nuestro sistema “JEMA” permite un regado adecuado a tus plantas que se basa en información en tiempo real como la 
+temperatura, la humedad del suelo, para tomar una decisión. Además, cuenta con un mecanismo que nos permite cuidar 
+tus plantas de las malas temperaturas, por ejemplo, al estar prevista una helada, este pondrá sobre tú planta 
+una protección que evitara que la dañen los diversos climas. Claro, está protección unida 
+a un sensor de proximidad que hará que, dependiendo del tamaño de la planta, mantendrá su distancia para no dañarla, lo que
+la hace especial para distintas especies de plantas.
+Cabe mencionar que todas estas medidas del agua a proveer y los climas de los
+cuales se debe cuidar son en relación a una base de datos que contiene todos 
+los datos de la planta, lo que lo hace único para cada uno. Sin duda un sistema que 
+no te van a ofrecer en cualquier lugar el cual está "Adaptando a las necesidades de todos".
+JEMA, la jema de la jardinería.
 
 ¿Como generar la visión del proyecto?
 
