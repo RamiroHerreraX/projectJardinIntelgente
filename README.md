@@ -3,7 +3,7 @@
 ## Integrantes
 - Herrera Ramiro - 1222100418
 - Hernández Negrete Alejandro 1222100417
-- Vega Cervantes Salvador 0000000000
+- Vega Cervantes Salvador 1222100485
 
 ## Carta de liberación del proyecto
 - Dirigida al Docente
