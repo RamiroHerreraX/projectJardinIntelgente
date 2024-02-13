@@ -1,7 +1,6 @@
 # Jardín Inteligente
 
 ## Integrantes
-- Lista de los integrantes (Nombre completo y Numero de control)
 - Herrera Ramiro - 1222100418
 - Hernández Negrete Alejandro 1222100417
 - Vega Cervantes Salvador 0000000000
