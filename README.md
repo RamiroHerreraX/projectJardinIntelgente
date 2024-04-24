@@ -1,4 +1,4 @@
-# Jardín Inteligente
+# Smart Ceramic (Smart Bathroom & Smart Environment)
 
 ## Integrantes
 - Herrera Ramiro - 1222100418
@@ -6,12 +6,7 @@
 - Vega Cervantes Salvador - 1222100485
 
 ## Carta de liberación del proyecto
-- Dirigida al Docente
-- Debe de expresar las funcionalidades que tiene el proyecto
-- Nombres de los integrantes que participaron en el proyecto
-- Es una imagen jpg o png.
-- Firmada por el empresario o docente ageno a la UTNG, agradeciendo la contribución de la UTNG.
-- Hoja membretada (Logo de la empresa, dirección y contacto)
+- Se presenta y anexa formato de carta, así como la respectiva evidencia mediante una foto
 
 ## Lista del Hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
