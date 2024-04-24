@@ -99,7 +99,6 @@ En resumen, "Smart Ceramic" representa una nueva era en el diseño y la tecnolog
 
 ![1](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/DashBoard1.png)
 ![2](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/DashBoard2.png)
-![3](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/LightControl.png)
 ![4](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/DashBoard3.png)
 ![5](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/DashboardTelefono1.jpg)
 ![6](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Flujos%20NodeRed/DashboardTelefono2.jpg)
