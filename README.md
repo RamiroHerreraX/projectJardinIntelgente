@@ -13,22 +13,22 @@ Puedes descargar la carta de liberación del proyecto [aquí](https://github.com
 ## Lista del Hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-| 1  | ESP32      | Microcontrolador que ayudara a cargar el codigo, hará funcionar los sensores y controladores | ![ESP32](https://cdn-reichelt.de/bilder/web/xxl_ws/A300/SBC-NODEMCU-ESP32-01.png) | 1 | $140.00 |
-| 2  | Raspberry PI | Tiene la capacidad para interactuar con sensores y dispositivos externos, así como para conectarse a redes y enviar datos a la nube | ![RaspBerry Pi 4](https://agelectro904833371.files.wordpress.com/2019/10/board_02.png?w=1024) | 1 | $1,891.00 |
-| 3  | DTH11      | Permite medir la temperatura y la humedad relativa del ambiente. | ![DHT11](https://www.mysensors.org/uploads/57c3ec0c4d04abe84cd93e0f/image/dht11.png) | 1 | $52.00 |
+
 
 ## Lista del Hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|  1 |     DHT11  |        Sensor de temperatura y humedad     |        |     1     |       $50      |
-|  2  |      Buzzer      |      Dsipositivo que emite sonido       |        |     1     |      $40       |
-|  3  |      Flame      |      Dsipositivo detector de fuego       |        |      1    |       $30      |
-|  4 |     Photoresistor  |        Sensor detector de luz     |        |     1     |       $50      |
-|  5  |      Pir      |      Dsipositivo que detecta movimientos      |        |     1     |      $40       |
-|  6 |      RGB      |      Dsipositivo que emite luces de colores       |        |      1    |       $17     |
-|  7 |     Led  |        Foco que emite luz     |        |     1     |       $2     |
-|  8  |      Oled      |      Dsipositivo que para plasmar mensajes en su pantalla      |        |     2     |      $60       |
-|  9 |      Relay      |      Dsipositivo que nos permite controlar corriente de luz       |        |      1    |       $59     |
+| 1  | ESP32      | Microcontrolador que ayudara a cargar el codigo, hará funcionar los sensores y controladores | ![ESP32](https://cdn-reichelt.de/bilder/web/xxl_ws/A300/SBC-NODEMCU-ESP32-01.png) | 1 | $140.00 |
+| 2  | Raspberry PI | Tiene la capacidad para interactuar con sensores y dispositivos externos, así como para conectarse a redes y enviar datos a la nube | ![RaspBerry Pi 4](https://agelectro904833371.files.wordpress.com/2019/10/board_02.png?w=1024) | 1 | $1,891.00 |
+| 3  | DTH11      | Permite medir la temperatura y la humedad relativa del ambiente. | ![DHT11](https://www.mysensors.org/uploads/57c3ec0c4d04abe84cd93e0f/image/dht11.png) | 1 | $52.00 |
+|    |      Buzzer      |      Dsipositivo que emite sonido       |        |     1     |      $40       |
+|    |      Flame      |      Dsipositivo detector de fuego       |        |      1    |       $30      |
+|   |     Photoresistor  |        Sensor detector de luz     |        |     1     |       $50      |
+|    |      Pir      |      Dsipositivo que detecta movimientos      |        |     1     |      $40       |
+|   |      RGB      |      Dsipositivo que emite luces de colores       |        |      1    |       $17     |
+|   |     Led  |        Foco que emite luz     |        |     1     |       $2     |
+|    |      Oled      |      Dsipositivo que para plasmar mensajes en su pantalla      |        |     2     |      $60       |
+|   |      Relay      |      Dsipositivo que nos permite controlar corriente de luz       |        |      1    |       $59     |
 
 ## Lista de Software utilizado
 | Id | Software | Version | Tipo |
