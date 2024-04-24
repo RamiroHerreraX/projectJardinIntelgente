@@ -43,11 +43,13 @@ Puedes descargar la carta de liberación del proyecto [aquí](https://github.com
 El concepto de "Smart Ceramic" abarca dos aspectos principales: Smart Bathroom y Smart Environment.
 
 - Smart Bathroom:
+
 El Smart Bathroom incorpora una serie de características y dispositivos inteligentes que optimizan las actividades diarias en el baño. Desde sistemas de iluminación LED regulables hasta la incorporación de una pantalla OLED y sistema de energpia mediante luz, para visualizar el estado del baño, nuestro objetivo es crear un ambiente de baño personalizado y de alta tecnología que se adapte a las necesidades y preferencias de cada usuario.
 
 Además, el Smart Bathroom incluye elementos de seguridad avanzados, como sensores de movimiento para ofrecer una experiencia de usuario intuitiva y accesible.
 
 - Smart Environment
+
 El Smart Environment se enfoca en la mejora del entorno general de la cerámica mediante tecnologías innovadoras que promueven la eficiencia energética y la sostenibilidad. Esto incluye controladores de temperatura ambiente y humedad, así como dispositivos de monitoreo de luz y fuego.
 
 Nuestro objetivo es crear un entorno al bienestar de los usuarios y al cuidado de los materiales y producción. Al integrar tecnologías inteligentes en los materiales cerámicos, "Smart Ceramic" no solo mejora la funcionalidad del baño, sino que también promueve un estilo de vida más consciente y responsable.
