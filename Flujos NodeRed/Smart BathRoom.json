@@ -1,0 +1,371 @@
+[
+    {
+        "id": "74d9c1a0f1ad25d7",
+        "type": "tab",
+        "label": "Smart bathroom",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dc153b694bf6cbc5",
+        "type": "remote-access",
+        "z": "74d9c1a0f1ad25d7",
+        "confignode": "ae636da0dfdc79fc",
+        "name": "",
+        "verbose": 0,
+        "x": 100,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "da059cb989aba2e4",
+        "type": "mqtt in",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "topic": "utng/ceramica/equipo1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "047f5c79eca375f8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "872aa43f89d80bd1",
+                "9e061f0ff11481ab",
+                "a45dac0c74efdad2",
+                "675df7498e7775dc"
+            ]
+        ]
+    },
+    {
+        "id": "7f1a341929ea7ab9",
+        "type": "mqtt out",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "topic": "utng/ceramica/equipo1",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "047f5c79eca375f8",
+        "x": 540,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "872aa43f89d80bd1",
+        "type": "debug",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "af7fb11f023eaee1",
+        "type": "inject",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "temp",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "str",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "276be7ce7811834d"
+            ]
+        ]
+    },
+    {
+        "id": "276be7ce7811834d",
+        "type": "function",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "func": "global.set(\"switch\", !global.get(\"switch\"));\nmsg.payload=global.get(\"switch\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"switch\", false);",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "7f1a341929ea7ab9"
+            ]
+        ]
+    },
+    {
+        "id": "5b4e9157bcf6a385",
+        "type": "ui_text",
+        "z": "74d9c1a0f1ad25d7",
+        "group": "d2d1453bedd305b3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Toilet Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 590,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "9e061f0ff11481ab",
+        "type": "function",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "func": "msg.payload = msg.payload==\"1\"?\"Ocupado\":\"Disponible\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 40,
+        "wires": [
+            [
+                "5b4e9157bcf6a385",
+                "7a72776e954c6b06"
+            ]
+        ]
+    },
+    {
+        "id": "45e4030a687fa08c",
+        "type": "postgresql",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "query": "INSERT INTO sensor_details(sensor_id,user_id,value) VALUES(1,1, '{{msg.payload}}');",
+        "postgreSQLConfig": "2304decd22577fdb",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "872aa43f89d80bd1"
+            ]
+        ]
+    },
+    {
+        "id": "7a72776e954c6b06",
+        "type": "function",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "func": "msg.payload = msg.payload=='Ocupado'?1.0:0.0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "45e4030a687fa08c"
+            ]
+        ]
+    },
+    {
+        "id": "a45dac0c74efdad2",
+        "type": "ui_chart",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "group": "d2d1453bedd305b3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Use Status ",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "-1",
+        "ymax": "2",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 610,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "675df7498e7775dc",
+        "type": "ui_gauge",
+        "z": "74d9c1a0f1ad25d7",
+        "name": "",
+        "group": "d2d1453bedd305b3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Value:",
+        "label": "",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ae636da0dfdc79fc",
+        "type": "remote-config",
+        "name": "Control de Baño",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "qc75trf03ss9botz8nrqw61903n0ras0421vxc0d7jq7aswo4j5pubdjg0zvxlid",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "047f5c79eca375f8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d2d1453bedd305b3",
+        "type": "ui_group",
+        "name": "Smart Bathroom",
+        "tab": "744fe0dc56bad1f3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2304decd22577fdb",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "localhost",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "ceramica",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "1234",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "744fe0dc56bad1f3",
+        "type": "ui_tab",
+        "name": "Ceramica",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
