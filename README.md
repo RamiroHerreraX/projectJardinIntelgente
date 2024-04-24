@@ -11,7 +11,7 @@
 ![Liberacion](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Carta%20Liberacion/CartaLiberacion.jpeg) 
 
 Puedes descargar la carta de liberación del proyecto [aquí](https://github.com/RamiroHerreraX/projectJardinIntelgente/blob/main/Carta%20Liberacion/Formato%20Hoja%20Membretada.pdf).
-Puedes visualizar el video de agradecimiento en el siguiente enlace: ![Mira en Drive](https://drive.google.com/drive/folders/1LTE3EKmxZ0Ou9a7oJMnLAZchoGJ-tKnn?usp=sharing)
+Puedes visualizar el video de agradecimiento en el siguiente enlace: [Mira en Drive](https://drive.google.com/drive/folders/1LTE3EKmxZ0Ou9a7oJMnLAZchoGJ-tKnn?usp=sharing)
 ## Lista del Hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
@@ -108,7 +108,7 @@ En resumen, "Smart Ceramic" representa una nueva era en el diseño y la tecnolog
 
 Enlace a los videos respecto a las funcionalidades del proyecto
 
-![Mira en Drive](https://drive.google.com/drive/folders/1LTE3EKmxZ0Ou9a7oJMnLAZchoGJ-tKnn?usp=sharing)
+[Mira en Drive](https://drive.google.com/drive/folders/1LTE3EKmxZ0Ou9a7oJMnLAZchoGJ-tKnn?usp=sharing)
 
 
 ## Código fuente
